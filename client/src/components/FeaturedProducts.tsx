@@ -1,3 +1,4 @@
+import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -51,9 +52,11 @@ export default function FeaturedProducts() {
             <span className="text-primary font-bold tracking-widest text-xs uppercase">Featured Products</span>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-foreground">Customer Favorites</h2>
           </div>
-          <Button variant="link" className="text-primary hover:text-primary/80 p-0 h-auto font-semibold group">
-            View All Products <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-          </Button>
+          <Link href="/products">
+            <a className="text-primary hover:text-primary/80 font-semibold group inline-flex items-center">
+              View All Products <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+            </a>
+          </Link>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -75,17 +78,7 @@ export default function FeaturedProducts() {
                 <h3 className="text-xl font-serif font-bold text-foreground group-hover:text-primary transition-colors">
                   {product.name}
                 </h3>
-                <div className="flex items-center justify-between pt-2">
-                  <span className="text-lg font-bold text-primary">{product.price}</span>
-                  <Button 
-                    variant="outline" 
-                    size="sm" 
-                    className="rounded-full hover:bg-primary hover:text-white border-primary/20"
-                    onClick={() => handleAddToCart(product.name)}
-                  >
-                    Add to Cart
-                  </Button>
-                </div>
+                {/* Removed Price and Add to Cart as requested */}
               </div>
             </div>
           ))}
