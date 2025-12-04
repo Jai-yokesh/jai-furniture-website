@@ -30,7 +30,7 @@ export default function Collections() {
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">Tile-Inlaid Furniture Collections</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Discover our exclusive range of premium sheesham wood furniture adorned with hand-painted ceramic tile artistry.
+            Discover our exclusive range of premium 100% teakwood furniture adorned with handmade Athangudi tile artistry.
           </p>
         </div>
 

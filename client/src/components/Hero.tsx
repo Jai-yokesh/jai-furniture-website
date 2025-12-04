@@ -44,7 +44,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-muted-foreground max-w-xl leading-relaxed"
           >
-            Experience the timeless elegance of hand-painted ceramic tiles embedded in premium sheesham wood. A heritage of craftsmanship for your modern home.
+            Experience the timeless elegance of handmade Athangudi tiles embedded in premium 100% teakwood. A heritage of craftsmanship for your modern home.
           </motion.p>
 
           <motion.div 
@@ -81,8 +81,8 @@ export default function Hero() {
           {[
             { label: "Years of Craft", value: "25+" },
             { label: "Happy Families", value: "5000+" },
-            { label: "Sheesham Wood", value: "100%" },
-            { label: "Warranty", value: "10 Years" },
+            { label: "Teakwood", value: "100%" },
+            { label: "Warranty", value: "50 Years" },
           ].map((stat, index) => (
             <div key={index}>
               <p className="text-2xl md:text-3xl font-serif font-bold text-primary">{stat.value}</p>

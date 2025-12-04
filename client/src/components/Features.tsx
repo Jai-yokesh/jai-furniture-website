@@ -3,8 +3,8 @@ import { Gem, PenTool, Truck, ShieldCheck } from "lucide-react";
 const features = [
   {
     icon: Gem,
-    title: "Handcrafted Tiles",
-    description: "Authentic hand-painted ceramic tiles sourced directly from artisans in Rajasthan."
+    title: "Handmade Athangudi Tiles",
+    description: "Authentic handmade Athangudi tiles sourced directly from artisans."
   },
   {
     icon: PenTool,
@@ -18,8 +18,8 @@ const features = [
   },
   {
     icon: ShieldCheck,
-    title: "10-Year Warranty",
-    description: "Our promise of quality with a comprehensive warranty on wood and craftsmanship."
+    title: "50-Year Warranty",
+    description: "Our promise of quality with a comprehensive 50-year warranty on wood and craftsmanship."
   }
 ];
 

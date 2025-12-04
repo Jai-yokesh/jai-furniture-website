@@ -44,15 +44,15 @@ export default function About() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At Jai Furniture, we blend the durability of solid Sheesham wood with the vibrant heritage of Rajasthani ceramic art. Each piece is not just furniture, but a canvas that tells a story of tradition, skill, and timeless beauty.
+              At Jai Furniture, we blend the durability of 100% solid Teakwood with the vibrant heritage of handmade Athangudi tiles. Each piece is not just furniture, but a canvas that tells a story of tradition, skill, and timeless beauty.
             </p>
 
             <ul className="space-y-4">
               {[
-                "100% solid seasoned Sheesham wood",
-                "Hand-painted ceramic tile inlays",
-                "Traditional Rajasthani craftsmanship",
-                "10-year warranty on wood & structure"
+                "100% solid seasoned Teakwood",
+                "Handmade Athangudi tile inlays",
+                "Traditional craftsmanship",
+                "50-year warranty on wood & structure"
               ].map((item, i) => (
                 <li key={i} className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
