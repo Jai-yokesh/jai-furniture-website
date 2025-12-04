@@ -79,7 +79,7 @@ export default function Hero() {
           className="mt-24 pt-8 border-t border-primary/10 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl"
         >
           {[
-            { label: "Years of Craft", value: "25+" },
+            { label: "Years of Craft", value: "40+" },
             { label: "Happy Families", value: "5000+" },
             { label: "Teakwood", value: "100%" },
             { label: "Warranty", value: "50 Years" },

@@ -39,9 +39,9 @@ export default function Navbar() {
 
         {/* Right Actions */}
         <div className="flex items-center gap-4 md:gap-6">
-          <a href="tel:+919876543210" className="hidden lg:flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary transition-colors">
+          <a href="tel:+919597464680" className="hidden lg:flex items-center gap-2 text-sm font-semibold text-foreground hover:text-primary transition-colors">
             <Phone className="h-4 w-4 text-primary" />
-            <span>+91 98765 43210</span>
+            <span>+91 95974 64680</span>
           </a>
           <Button 
             onClick={() => scrollToSection('contact')}

@@ -54,9 +54,9 @@ export default function Contact() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {[
-                { icon: MapPin, title: "Visit Us", text: "123 Furniture Market, Jaipur, Rajasthan 302001" },
-                { icon: Phone, title: "Call Us", text: "+91 98765 43210\n+91 12345 67890" },
-                { icon: Mail, title: "Email Us", text: "hello@jaifurniture.com\nsales@jaifurniture.com" },
+                { icon: MapPin, title: "Visit Us", text: "138 Mainroad, Konalur, \nThiruvannamalai, 606755" },
+                { icon: Phone, title: "Call Us", text: "+91 95974 64680\n+91 96002 90985" },
+                { icon: Mail, title: "Email Us", text: "yokeshwaran1912@gmail.com\njaifurniture.in" },
                 { icon: Clock, title: "Working Hours", text: "Mon - Sat: 10AM - 8PM\nSunday: 11AM - 5PM" },
               ].map((item, i) => (
                 <div key={i} className="bg-secondary/20 p-6 rounded-xl border border-border">

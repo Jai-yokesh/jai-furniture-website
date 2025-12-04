@@ -19,11 +19,11 @@ export default function About() {
               />
               <div className="space-y-4">
                 <div className="bg-primary p-6 rounded-2xl text-primary-foreground flex flex-col justify-center h-40 shadow-lg">
-                  <span className="text-5xl font-serif font-bold">25</span>
+                  <span className="text-5xl font-serif font-bold">40</span>
                   <span className="text-sm font-medium uppercase tracking-wider opacity-80">Years of Craft</span>
                 </div>
                 <img 
-                  src={imgDetail} 
+                  src={imgDetail}  
                   alt="Furniture Detail" 
                   className="rounded-2xl shadow-lg w-full h-64 object-cover"
                 />

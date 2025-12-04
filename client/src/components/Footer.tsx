@@ -10,15 +10,9 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-3xl font-serif font-bold text-white">Jai Furniture</h3>
             <p className="text-white/60 leading-relaxed">
-              Crafting timeless sheesham wood furniture with traditional tile artistry since 1999. Bringing heritage to your home.
+              Crafting timeless teakwood furniture with traditional tile artistry. Bringing heritage to your home.
             </p>
-            <div className="flex gap-4">
-              {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
-                <a key={i} href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-primary hover:text-white transition-colors">
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
+            {/* Social icons removed as requested */}
           </div>
 
           {/* Links */}
