@@ -5,12 +5,18 @@ import imgLiving from "@assets/generated_images/living_room_furniture_collection
 import imgDining from "@assets/generated_images/dining_room_furniture_collection.png";
 import imgStorage from "@assets/generated_images/storage_furniture_collection.png";
 import imgDressing from "@assets/generated_images/dressing_table_furniture_collection.png";
+import imgBedroom from "@assets/generated_images/bedroom_furniture_collection.png";
+import imgDecor from "@assets/generated_images/home_decor_collection.png";
+import imgOutdoor from "@assets/generated_images/outdoor_furniture_collection.png";
 
 const collections = [
   { title: "Living Room", count: "45+ designs", image: imgLiving, size: "col-span-1 md:col-span-2" },
   { title: "Dining", count: "38+ designs", image: imgDining, size: "col-span-1" },
   { title: "Storage", count: "32+ designs", image: imgStorage, size: "col-span-1" },
   { title: "Dressing", count: "28+ designs", image: imgDressing, size: "col-span-1 md:col-span-2" },
+  { title: "Bedroom", count: "20+ designs", image: imgBedroom, size: "col-span-1 md:col-span-2" },
+  { title: "Home Decor", count: "15+ designs", image: imgDecor, size: "col-span-1" },
+  { title: "Outdoor", count: "10+ designs", image: imgOutdoor, size: "col-span-1 md:col-span-3" },
 ];
 
 export default function Collections() {
