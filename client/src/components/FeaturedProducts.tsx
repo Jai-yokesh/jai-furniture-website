@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 import imgSofa from "@assets/generated_images/convertible_sofa_cum_bed_product_shot.png";
 import imgWardrobe from "@assets/generated_images/tile_inlaid_wardrobe_product_shot.png";
@@ -33,6 +34,15 @@ const products = [
 ];
 
 export default function FeaturedProducts() {
+  const { toast } = useToast();
+
+  const handleAddToCart = (productName: string) => {
+    toast({
+      title: "Added to Cart",
+      description: `${productName} has been added to your cart.`,
+    });
+  };
+
   return (
     <section className="py-24 bg-secondary/30">
       <div className="container mx-auto px-4 md:px-6">
@@ -67,7 +77,12 @@ export default function FeaturedProducts() {
                 </h3>
                 <div className="flex items-center justify-between pt-2">
                   <span className="text-lg font-bold text-primary">{product.price}</span>
-                  <Button variant="outline" size="sm" className="rounded-full hover:bg-primary hover:text-white border-primary/20">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="rounded-full hover:bg-primary hover:text-white border-primary/20"
+                    onClick={() => handleAddToCart(product.name)}
+                  >
                     Add to Cart
                   </Button>
                 </div>

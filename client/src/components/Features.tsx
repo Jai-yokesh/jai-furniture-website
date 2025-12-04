@@ -25,7 +25,7 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="services" className="py-24 relative overflow-hidden">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-sky-50 to-background z-0" />
 

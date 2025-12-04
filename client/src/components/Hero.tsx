@@ -3,6 +3,13 @@ import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/blurred_luxury_wardrobe_background_for_hero_section.png";
 
 export default function Hero() {
+  const scrollTo = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
@@ -46,10 +53,19 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex flex-wrap gap-4"
           >
-            <Button size="lg" className="rounded-full text-base px-8 py-6 shadow-lg shadow-primary/20">
+            <Button 
+              size="lg" 
+              className="rounded-full text-base px-8 py-6 shadow-lg shadow-primary/20"
+              onClick={() => scrollTo('collections')}
+            >
               Explore Collections
             </Button>
-            <Button variant="outline" size="lg" className="rounded-full text-base px-8 py-6 border-primary/20 hover:bg-primary/5">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="rounded-full text-base px-8 py-6 border-primary/20 hover:bg-primary/5"
+              onClick={() => scrollTo('contact')}
+            >
               Visit Showroom
             </Button>
           </motion.div>

@@ -15,7 +15,7 @@ const collections = [
 
 export default function Collections() {
   return (
-    <section className="py-24 bg-background">
+    <section id="collections" className="py-24 bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-foreground">Tile-Inlaid Furniture Collections</h2>
