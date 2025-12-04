@@ -1,13 +1,15 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
-import imgLiving from "@assets/generated_images/living_room_furniture_collection.png";
-import imgDining from "@assets/generated_images/dining_room_furniture_collection.png";
-import imgStorage from "@assets/generated_images/storage_furniture_collection.png";
-import imgDressing from "@assets/generated_images/dressing_table_furniture_collection.png";
-import imgBedroom from "@assets/generated_images/bedroom_furniture_collection.png";
-import imgDecor from "@assets/generated_images/home_decor_collection.png";
-import imgOutdoor from "@assets/generated_images/outdoor_furniture_collection.png";
+// Real images from attached assets
+import imgLiving from "@assets/product-image-2084-1_1764891712166.jpg";
+import imgDining from "@assets/11_fae76192-38fb-46ed-8a47-041ecd14c53f_1764891712165.webp";
+import imgStorage from "@assets/61yWeMBW59L._SX679__1764891723852.jpg";
+import imgDressing from "@assets/honey-746x522_1764891723853.jpg";
+import imgBedroom from "@assets/12_69d58778-0331-40d1-be1f-ecf0a08e5014_1764891712166.webp";
+import imgDecor from "@assets/01-746x522_(1)_1764891723849.jpg";
+import imgOutdoor from "@assets/product-image-2084-5_1764891712167.jpg";
+import imgTvUnit from "@assets/honey-look-1-746x522_1764891723853.jpg";
 
 const collections = [
   { title: "Living Room", count: "45+ designs", image: imgLiving, size: "col-span-1 md:col-span-2" },
@@ -16,7 +18,8 @@ const collections = [
   { title: "Dressing", count: "28+ designs", image: imgDressing, size: "col-span-1 md:col-span-2" },
   { title: "Bedroom", count: "20+ designs", image: imgBedroom, size: "col-span-1 md:col-span-2" },
   { title: "Home Decor", count: "15+ designs", image: imgDecor, size: "col-span-1" },
-  { title: "Outdoor", count: "10+ designs", image: imgOutdoor, size: "col-span-1 md:col-span-3" },
+  { title: "Outdoor", count: "10+ designs", image: imgOutdoor, size: "col-span-1" },
+  { title: "TV Units", count: "12+ designs", image: imgTvUnit, size: "col-span-1 md:col-span-2" },
 ];
 
 export default function Collections() {
