@@ -26,28 +26,6 @@ export default function Footer() {
               <li><a href="#" className="hover:text-primary transition-colors">New Arrivals</a></li>
             </ul>
           </div>
-
-          <div>
-            <h4 className="text-lg font-bold text-white mb-6">Company</h4>
-            <ul className="space-y-3 text-white/70">
-              <li><a href="#" className="hover:text-primary transition-colors">Our Story</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Showroom</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Blog</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-lg font-bold text-white mb-6">Support</h4>
-            <ul className="space-y-3 text-white/70">
-              <li><a href="#" className="hover:text-primary transition-colors">FAQ</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Shipping Policy</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Returns & Warranty</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Care Instructions</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Track Order</a></li>
-            </ul>
-          </div>
         </div>
 
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/40">
