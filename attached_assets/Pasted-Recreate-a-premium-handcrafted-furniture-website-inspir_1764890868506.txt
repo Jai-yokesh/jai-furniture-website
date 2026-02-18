@@ -1,0 +1,189 @@
+Recreate a premium handcrafted furniture website inspired by the uploaded screenshots. Build a clean, elegant, high-end brand experience for Jai Furniture, showcasing tile-inlaid sheesham wood furniture.
+
+Use a warm, earthy color palette with shades of beige, brown, cream, and elegant serif typography for headings. Use soft gradients, rounded cards, and spacious layout with gentle shadows.
+
+HEADER
+
+Left: logo text “Jai Furniture” in elegant serif font.
+
+Center navigation: Home, Collections, About, Services, Contact
+
+Right: phone icon + +91 98765 43210, and a brown rounded button GET QUOTE
+
+Light beige background, subtle shadow, large spacing.
+
+HERO SECTION
+
+Full-width hero with blurred background image of tile-inlaid sheesham wood wardrobe.
+
+Large 3-line title with layered serif typography:
+
+Traditional
+
+Tile-Inlaid (italic serif)
+
+Furniture (bold royal blue serif)
+
+Subtitle paragraph describing handcrafted furniture and ceramic tiles.
+
+Two buttons: Explore Collections (primary), Visit Showroom (outline).
+
+Stats row below:
+
+25+ Years of Craft
+
+5000+ Happy Families
+
+100% Sheesham Wood
+
+Thin line divider above stats.
+
+OUR COLLECTIONS SECTION
+
+Section title: Tile-Inlaid Furniture Collections
+
+Subtitle describing premium sheesham wood and ceramic tile artistry.
+
+Display 4 collection cards with images:
+
+Living Room (45+ designs)
+
+Dining (38+ designs)
+
+Storage (32+ designs)
+
+Dressing (28+ designs)
+
+Cards have soft gradient overlays and a small corner dot marker.
+
+Hover effect: slight zoom or shadow.
+
+FEATURED PRODUCTS — CUSTOMER FAVORITES
+
+Section label: FEATURED PRODUCTS
+
+Title: Customer Favorites
+
+Right-aligned link: View All Products →
+
+Product cards in 3-column layout:
+
+Bestseller badge / New badge
+
+Large product image
+
+Category
+
+Product Name
+
+Price in bold brown
+
+Products seen in screenshots:
+
+Convertible Sofa Cum Bed — ₹45,999
+
+Heritage Dressing Table — ₹38,500
+
+Tile Wardrobe (2 Door) — ₹52,000
+
+ABOUT US — STORY + HIGHLIGHTS
+
+Two-column layout.
+
+Left side: vertical image grid of furniture pieces + quotes + gradient block showing 25 Years of Craft.
+
+Right side:
+
+Title: Preserving the Art of Tile-Inlaid Furniture
+
+Paragraphs describing craftsmanship, heritage, and hand-painted tiles.
+
+Bullet list with blue check icons:
+
+100% solid sheesham wood
+
+Hand-painted ceramic tile inlays
+
+Traditional Rajasthani craftsmanship
+
+10-year warranty
+
+Button: Learn Our Story
+
+WHY CHOOSE US — THE JAI FURNITURE PROMISE
+
+Section label: WHY CHOOSE US
+
+Title: The Jai Furniture Promise
+
+Subtitle describing authenticity, materials, and service.
+
+Four feature cards with icons:
+
+Handcrafted Tiles — description
+
+Custom Designs — description
+
+Pan-India Delivery — description
+
+10-Year Warranty — description
+
+Soft gradient background from light blue to cream.
+
+CONTACT / REQUEST A QUOTE
+
+Left column: four info cards
+
+Showroom address
+
+Phone numbers
+
+Emails
+
+Working Hours
+
+Right column: Quote form with fields:
+
+Full Name
+
+Phone Number
+
+Email
+
+Interested In (dropdown)
+
+Message box
+
+Submit button: SEND MESSAGE, brown full-width button.
+
+FOOTER
+
+Dark brown full-width footer.
+
+Left block: brand description + social icons.
+
+Center & right columns with links:
+
+Collections
+
+Company
+
+Support
+
+Bottom legal row: Privacy Policy, Terms of Service, © 2024 Jai Furniture.
+
+STYLE REQUIREMENTS
+
+Warm earthy palette: beige, cream, brown, soft gradients.
+
+Premium serif fonts for headings; modern sans-serif for body text.
+
+Rounded corners on cards; soft shadows; high-end aesthetic.
+
+Plenty of spacing and clean layout.
+
+Smooth hover animations.
+
+Modern, responsive design for all screen sizes.
+
+Recreate the entire website using the structure, styling, design language, and components described above. Do not copy copyrighted images. Replace with placeholder images of sheesham wood furniture with tile work.
