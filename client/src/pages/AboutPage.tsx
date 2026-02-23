@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-
 import jaiShankerImg from "@/assets/jai-shanker.jpg";
 import krishnamoorthyImg from "@/assets/krishnamoorthy.jpg";
 import shanthavigneshImg from "@/assets/shanthavignesh.jpg";
