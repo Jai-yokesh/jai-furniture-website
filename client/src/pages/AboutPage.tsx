@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import jaiShankerImg from "@/assets/jai-shanker.jpg";
 import krishnamoorthyImg from "@/assets/krishnamoorthy.jpg";
-import shanthavigneshImg from "@/assets/shanthavignesh.jpg";
+import shanthavigneshImg from "@/assets/shanthavignesh.JPG";
 import yokeshwaranImg from "@/assets/yokeshwaran.jpg";
 export default function AboutPage() {
 
