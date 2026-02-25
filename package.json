@@ -9,8 +9,8 @@
   "scripts": {
     "dev:client": "vite dev --port 5000",
     "dev": "NODE_ENV=development tsx server/index.ts",
-   "build": "vite build --outDir dist/public && rm -rf public && cp -R dist/public public",
-    "start": "NODE_ENV=production node dist/index.cjs",
+   "build": "vite build --outDir dist/public",
+       "start": "NODE_ENV=production node dist/index.cjs",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
